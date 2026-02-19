@@ -1,9 +1,9 @@
 # Simple Calculator
 
 # Get user input
-num1 = float(input("Enter first number: "))
+num1 = int(sys.args[1])
 operator = input("Enter operator (+, -, *, /): ")
-num2 = float(input("Enter second number: "))
+num2 = int(sys.args[2])
 
 # Perform calculation
 if operator == "+":
