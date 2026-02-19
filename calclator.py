@@ -26,6 +26,7 @@ try:
         result = "Invalid operator"
 
     print("Result:", result)
+    print("this is updated scm message")
 
 except ValueError:
     print("Error: Please enter valid numbers.")
