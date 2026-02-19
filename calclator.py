@@ -1,6 +1,7 @@
 # Simple Calculator
 
 # Get user input
+import sys
 num1 = int(sys.args[1])
 operator = input("Enter operator (+, -, *, /): ")
 num2 = int(sys.args[2])
